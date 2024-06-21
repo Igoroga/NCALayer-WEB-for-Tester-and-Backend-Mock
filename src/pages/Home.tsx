@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
+// @ts-ignore
+import { NCALayerClient } from "ncalayer-js-client";
 
 
-const Home: React.FC = () => (
-  <div>
-    <h1 className="text-3xl font-bold">Главная страница</h1>
-    <p>Добро пожаловать на главную страницу!</p>
-  </div>
-);
- 
+
+const Home: React.FC = () => {
+  return(
+    <>
+    <div className="flex flex-col bg-gray-50 px-5 py-5 relative rounded-xl shadow-md gap-[20px]">
+      Это описание сайта
+    </div>
+    </>
+  )
+};
+
 export default Home

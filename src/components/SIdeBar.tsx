@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar: React.FC = () => {
   return (
-    <div className="h-screen w-64 bg-gray-800 text-white">
+    <div className="h-screen w-64 bg-gray-800 text-white min-w-[250px] w-[250px]">
       <div className="p-4 text-2xl font-semibold">Меню</div>
       <nav className="mt-4">
         <ul>
