@@ -53,8 +53,23 @@ const CmsPages: React.FC = () => {
     return xmlSignature || '';
   }
 
+  const copyToClipboard = () => {
+    if (processedData) {
+      navigator.clipboard.writeText(processedData)
+        .then(() => {
+          alert('Текст успешно скопирован!');
+        })
+        .catch((err) => {
+          alert('Ошибка при копировании текста: ');
+        });
+    }
+  };
+
   return (
       <div className="flex flex-col bg-gray-50 px-5 py-5 relative rounded-xl shadow-md gap-[20px]">
+        <span className='text-[20px]'>
+        Подпись CMS
+      </span>
         <div className="flex flex-row gap-[30px]">
           <textarea
             className="max-w-[500px] h-[44px] flex-1 border border-gray-700 rounded-[5px] p-2 placeholder-gray-500"
@@ -70,9 +85,19 @@ const CmsPages: React.FC = () => {
           </button>
         </div>
         
-  {processedData && (
-    <div className='border border-black max-w-[1500px] w-full p-[5px] rounded-[5px]'>{processedData}</div>
-  )}
+        <div>
+      {processedData && (
+        <div className='border border-black max-w-[1500px] w-full p-[5px] rounded-[5px] relative h-auto'>
+          {processedData}
+          <button
+            onClick={copyToClipboard}
+            className='absolute top-0 right-0 mt-[2px] mr-2 px-2 py-1 bg-gray-800 text-white rounded h-[30px]'
+          >
+            Копировать
+          </button>
+        </div>
+      )}
+    </div>
     </div>
   );
 };
