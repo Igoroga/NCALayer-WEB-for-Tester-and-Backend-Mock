@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/SIdeBar';
 import CmsPages from './pages/CmsPages';
 import Home from './pages/Home';
+import XmlPage from './pages/XmlPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/signature" element={<CmsPages />} />
+          <Route path="/xml" element={<XmlPage/>} />
         </Routes>
       </div>
     </div>
