@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/css/main.1b36c7c7.css",
-    "main.js": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.8fb23f72.js",
+    "main.css": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/css/main.36aade36.css",
+    "main.js": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.bb05d4b4.js",
     "index.html": "/NCALayer-WEB-for-Tester-and-Backend-Mock/index.html",
-    "main.1b36c7c7.css.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/css/main.1b36c7c7.css.map",
-    "main.8fb23f72.js.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.8fb23f72.js.map"
+    "main.36aade36.css.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/css/main.36aade36.css.map",
+    "main.bb05d4b4.js.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.bb05d4b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b36c7c7.css",
-    "static/js/main.8fb23f72.js"
+    "static/css/main.36aade36.css",
+    "static/js/main.bb05d4b4.js"
   ]
 }
