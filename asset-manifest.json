@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/css/main.36aade36.css",
-    "main.js": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.bb05d4b4.js",
+    "main.js": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.fa50474b.js",
     "index.html": "/NCALayer-WEB-for-Tester-and-Backend-Mock/index.html",
     "main.36aade36.css.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/css/main.36aade36.css.map",
-    "main.bb05d4b4.js.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.bb05d4b4.js.map"
+    "main.fa50474b.js.map": "/NCALayer-WEB-for-Tester-and-Backend-Mock/static/js/main.fa50474b.js.map"
   },
   "entrypoints": [
     "static/css/main.36aade36.css",
-    "static/js/main.bb05d4b4.js"
+    "static/js/main.fa50474b.js"
   ]
 }
