@@ -45,6 +45,12 @@ const CmsPages: React.FC = () => {
     }
   
     if (xmlSignature) {
+      if (Array.isArray(xmlSignature)) {
+        // Если это массив, берем первый элемент
+        xmlSignature = xmlSignature[0];
+      }
+      
+      // Убираем лишние строки и пробелы
       xmlSignature = xmlSignature
         .replace('-----BEGIN CMS-----', '')
         .replace('-----END CMS-----', '')
